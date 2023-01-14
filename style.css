@@ -89,23 +89,23 @@ header {
   margin-left: -50px;
   margin-top: 100px;
 }
-.features-title{
+.features-title {
   font-size: 45px;
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 25px;
 }
-.gray-color{
+.gray-color {
   color: #727272;
 }
-.black-color{
+.black-color {
   color: #131313;
 }
-.orange-color{
+.orange-color {
   color: #ff900e;
 }
 
-.features-description{
+.features-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -113,7 +113,7 @@ header {
   margin-bottom: 25px;
 }
 
-.praimary-btn2{
+.praimary-btn2 {
   padding: 21px 24px 20px 25px;
   color: #ffffff;
   background: #ff900e;
@@ -124,3 +124,86 @@ header {
   font-size: 20px;
 }
 /* features section style is ends */
+/* service section style start */
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 130px;
+}
+.service-heading {
+  width: 480px;
+  margin-bottom: 30px;
+}
+.verticle-line{
+  width: 4px;
+  height: 100px;
+  background-color: #ff900e;
+  position: absolute;
+ 
+}
+.service-heading-title {
+  position: relative;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.service-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.service-item {
+  margin-bottom: 20px;
+  width: 450px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.service-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #131313;
+}
+.service-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #727272;
+}
+/* .service-image{
+  position: relative;
+} */
+.service-image img {
+  width: 600px;
+  height: 750px;
+ 
+
+}
+
+.praimary-btn3{
+  padding:15px 10px 15px 10px ;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 10px;
+  border-style: none;
+font-size: 25px;
+line-height:50px;
+
+}
+.btn{
+  position: absolute;
+   top:2800px;
+   right:550px;
+}
+.praimary-btn3 span{
+  font-size: 55px;
+  font-weight: 700;
+}
+/* service section style ends */
