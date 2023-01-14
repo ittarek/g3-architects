@@ -17,17 +17,17 @@ nav ul {
   display: flex;
   gap: 50px;
   list-style: none;
-
 }
-nav ul li a{
+nav ul li a {
   font-weight: 500;
   font-size: 18px;
- 
-    text-decoration: none;
-    color: #424242;
+
+  text-decoration: none;
+  color: #424242;
 }
 header {
   background: rgba(255, 144, 14, 0.1);
+  margin-bottom: 70px;
 }
 .bannar-details {
   text-align: center;
@@ -65,3 +65,62 @@ header {
   border-radius: 8px;
   margin-bottom: 100px;
 }
+/* bannar style ends here */
+
+/* features section style is start */
+.Features {
+  display: grid;
+  grid-template-columns: 800px 200px;
+  margin-bottom: 130px;
+}
+.features-images {
+  display: grid;
+  grid-template-columns: repeat(2, 0.3fr);
+  justify-content: center;
+  gap: 20px;
+}
+.features-images img {
+  width: 250px;
+}
+.features-details {
+  text-align: left;
+  width: 500px;
+  height: 312px;
+  margin-left: -50px;
+  margin-top: 100px;
+}
+.features-title{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+.gray-color{
+  color: #727272;
+}
+.black-color{
+  color: #131313;
+}
+.orange-color{
+  color: #ff900e;
+}
+
+.features-description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 25px;
+}
+
+.praimary-btn2{
+  padding: 21px 24px 20px 25px;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 10px;
+  border-style: none;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* features section style is ends */
