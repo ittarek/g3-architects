@@ -236,8 +236,9 @@ header {
 }
 .summury-items :hover {
   background-color: gold;
-  transform: rotate(45deg);
-  transition: 2s ease 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  transition: 2s all 0.5s;
+  cursor: pointer;
 }
 .summury-item img {
   margin-top: 15px;
@@ -399,13 +400,12 @@ footer p {
   padding: 30px;
 }
 /* footer style ends */
-.hide{
+.hide {
   display: none;
 }
 
 /* responsive small device style is start */
 @media screen and (max-width: 576px) {
- 
   nav {
     display: flex;
   }
@@ -444,19 +444,17 @@ footer p {
     width: 80%;
     margin: auto;
   }
- .service-catagorys{
+  .service-catagorys {
     width: 100%;
     margin: auto;
-    
   }
-  .service-heading{
-    width:100%;
-    margin: auto;
-  } 
-  .service-item{
+  .service-heading {
     width: 100%;
     margin: auto;
-    
+  }
+  .service-item {
+    width: 100%;
+    margin: auto;
   }
   .service-image img {
     width: 90%;
@@ -477,14 +475,13 @@ footer p {
     justify-content: center;
     align-items: center;
   }
-  .summury-item{
+  .summury-item {
     width: 100%;
   }
-  .Sponsors{
+  .Sponsors {
     width: 90%;
   }
   .sponsors-image {
-
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -498,11 +495,10 @@ footer p {
     width: 120px;
     margin: auto;
   }
-  .sponsors-image1 img
-  {
-    width:60px;
+  .sponsors-image1 img {
+    width: 50px;
   }
-  .sponsors-image2 img{
+  .sponsors-image2 img {
     width: 50px;
   }
   .contact {
@@ -523,6 +519,7 @@ footer p {
   }
   footer {
     width: 100%;
+    margin-bottom: 0px;
   }
 }
 /* responsive small device style is ends */
