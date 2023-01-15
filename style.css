@@ -399,7 +399,7 @@ footer p {
   padding: 30px;
 }
 /* footer style ends */
-.hide {
+.hide{
   display: none;
 }
 
@@ -441,14 +441,30 @@ footer p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: auto;
   }
+ .service-catagorys{
+    width: 100%;
+    margin: auto;
+    
+  }
+  .service-heading{
+    width:100%;
+    margin: auto;
+  } 
+  .service-item{
+    width: 100%;
+    margin: auto;
+    
+  }
   .service-image img {
-    width: 400px;
+    width: 90%;
     height: 80%;
   }
   .summury-details {
+    margin: auto;
+    width: 100%;
     text-align: center;
     margin: auto;
   }
@@ -457,22 +473,37 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin: auto;
-    width: 80%;
+    width: 100%;
     justify-content: center;
     align-items: center;
   }
+  .summury-item{
+    width: 100%;
+  }
+  .Sponsors{
+    width: 90%;
+  }
   .sponsors-image {
+
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   .sponsors-image1 {
     justify-content: space-around;
-    width: 250px;
+    width: 120px;
     margin: auto;
   }
-  .sponsors-image1 img,
-  .sponsors-image2 img {
-    width:90px;
+  .sponsors-image2 {
+    justify-content: space-around;
+    width: 120px;
+    margin: auto;
+  }
+  .sponsors-image1 img
+  {
+    width:60px;
+  }
+  .sponsors-image2 img{
+    width: 50px;
   }
   .contact {
     flex-direction: column-reverse;
