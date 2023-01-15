@@ -284,51 +284,125 @@ header {
   margin-bottom: 40px;
 }
 .sponsors-image {
-  display: flex; 
-justify-content:center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sponsors-image1 {
   display: flex;
   justify-content: center;
   align-items: center;
- 
- 
 }
-.image1-div{
+.image1-div {
   width: 150px;
-  margin:30px 40px 0px 40px;
+  margin: 30px 40px 0px 40px;
   align-items: center;
- color: #000000;
+  color: #000000;
 }
 .sponsors-image2 {
-  
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.image2-div{
+.image2-div {
   align-items: center;
   width: 150px;
-  margin:30px 40px 0px 40px;
+  margin: 30px 40px 0px 40px;
 }
 /* our sponspors style ends */
-
-/* footer style start */
-footer{
-  background: #FFF4E7;
-border-radius: 8px;
-width: 1349px;
-height: 100px;
-
+/* contact style */
+.contact {
+  display: flex;
+  background-color: #000000;
+  margin-bottom: 130px;
 }
-footer p{
+.future {
+  width: 500px;
+  justify-content: center;
+  text-align: left;
+  margin-left: 153px;
+  margin-top: 100px;
+}
+.future-title {
+  color: #650808;
+  margin-bottom: 20px;
+}
+.futtur-decription {
+  color: #861515;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+.future-email {
+  color: #c70909;
+  margin-bottom: 20px;
+}
+.future-number {
+  color: #742020;
+  margin-bottom: 10px;
+}
+
+.future-contant > img {
+  padding: 26px;
+  text-align: right;
+  justify-content: right;
+  margin-left: -31px;
+}
+.Submit > h2 {
+  color: #d00b88;
+  font-size: 35px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+.Submit {
+  width: 300px;
+  height: 101px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.sub-button :hover {
+  color: gainsboro;
+  background-color: green;
+}
+.Submit > input {
+  padding: 15px 50px 15px 15px;
+  border-radius: 10px;
+  border: 2px solid rgb(165, 21, 21);
+  background-color: #151414;
+  margin-bottom: 10px;
+}
+.Submit button {
+  padding: 15px 25px;
+  border-radius: 8px;
+  color: #f15b22;
+  font-weight: bold;
+  font-size: 18px;
+}
+::-webkit-input-placeholder {
+  color: #fff4f4;
+}
+/* contact style ends */
+/* footer style start */
+footer {
+  background: #fff4e7;
+  border-radius: 8px;
+  width: 1349px;
+  height: 100px;
+}
+footer p {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   color: #424242;
-padding:30px;
+  padding: 30px;
 }
 /* footer style ends */
+
+/* responsive small device style is start */
+@media screen and (max-width: 576px) {
+  
+  
+}
+/* responsive small device style is ends */
